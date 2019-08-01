@@ -1,0 +1,11 @@
+DROP TABLE IF EXISTS providers;
+ 
+CREATE TABLE providers (
+  id VARCHAR(50) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  providerName VARCHAR(250) NOT NULL,
+);
+ 
+INSERT INTO providers (providerName) VALUES
+  ('Aliko' ),
+  ('Bill'),
+  ('Folrunsho');
